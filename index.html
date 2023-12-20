@@ -81,10 +81,10 @@
                 <section class="home" id="home">
                     <div class="home__container section bd-grid">
                         <div class="home__data bd-grid">
-                            <img src="assets/img/myPic.jpg" alt="" class="home__image">
+                            <img src="assets/img/myPic.jpg" alt="" class="home__img">
 
                             <h1 class="home__title">Emmanuelle <b>Salazar</b></h1>
-                            <h3 class="home__profession">Web Developer</h3>
+                            <h3 class="home__profession">Jr. Front-End Developer</h3>
 
                             <!-- Button to download your cv saved in the pdf folder. Available for mobile. -->
                             <div>
@@ -105,6 +105,11 @@
                         </div>
                     </div>
                     <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for destop. -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+
                 </section>
 
                 <!--========== SOCIAL ==========-->
@@ -112,15 +117,16 @@
                     <h2 class="section-title">Social</h2>
 
                     <div class="social__container bd-grid">
-                        <a href="https://www.linkedin.com/" target="_blank" class="social__link">
-                            <i class='bx bxl-linkedin social__icon'></i> @Emmansalazar
+                        <a href="https://www.linkedin.com/in/emmanuelle-salazar-6846702a5/" target="_blank"
+                            class="social__link">
+                            <i class='bx bxl-linkedin social__icon'></i> Emmanuelle Salazar
                         </a>
-                        <a href="https://www.facebook.com/" target="_blank" class="social__link">
-                            <i class='bx bxl-facebook social__icon'></i> @Emmansalazar
+                        <a href="https://www.facebook.com/noel.salazar2/" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook social__icon'></i> Emmanuelle Salazar
                         </a>
-                        <a href="https://www.instagram.com/" target="_blank" class="social__link">
-                            <i class='bx bxl-instagram social__icon'></i> @Emmansalazar
-                        </a>
+                        <!-- <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram social__icon'></i> @shymanako
+                        </a> -->
                     </div>
                 </section>
 
@@ -128,9 +134,9 @@
                 <section class="profile section" id="profile">
                     <h2 class="section-title">Profile</h2>
 
-                    <p class="profile__description">I am a person, responsible with their work during working hours.
-                        Finish various technical and higher studies at large universities. I have several years of
-                        experience and achievements in the labor field.</p>
+                    <p class="profile__description">
+                        I am a front-end developer with three years of exprience using html, css and i can also do
+                        back-end with php and pgsql.</p>
                 </section>
 
                 <!--========== EDUCATION ==========-->
@@ -145,9 +151,9 @@
                             </div>
 
                             <div class="education__data bd-grid">
-                                <h3 class="education__title">Master of Design</h3>
-                                <span class="education__studies"> University of Studies</span>
-                                <span class="education__year">2020 - 2021</span>
+                                <h3 class="education__title">High School Graduate</h3>
+                                <span class="education__studies">GSC Sped Integrated School</span>
+                                <span class="education__year">2014 - 2018</span>
                             </div>
                         </div>
 
@@ -158,9 +164,9 @@
                             </div>
 
                             <div class="education__data bd-grid">
-                                <h3 class="education__title">Web Developer</h3>
-                                <span class="education__studies">Institute of studies</span>
-                                <span class="education__year">2021 - 2022</span>
+                                <h3 class="education__title">SHS Graduate</h3>
+                                <span class="education__studies">Notre Dame of Dadiangas University</span>
+                                <span class="education__year">2018 - 2020</span>
                             </div>
                         </div>
 
@@ -170,14 +176,13 @@
                             </div>
 
                             <div class="education__data bd-grid">
-                                <h3 class="education__title">Master in UI/UX</h3>
-                                <span class="education__studies">MSU</span>
-                                <span class="education__year">2022 - 2023</span>
+                                <h3 class="education__title">Bachelor of Science Information Technology</h3>
+                                <span class="education__studies">Mindanao State University</span>
+                                <span class="education__year">2020 - Present</span>
                             </div>
                         </div>
 
                 </section>
-
 
                 <!--========== SKILLS  ==========-->
                 <section class="skills section" id="skills">
@@ -192,27 +197,15 @@
                             <li class="skills__name">
                                 <span class="skills__circle"></span> CSS
                             </li>
+                        </ul>
 
+                        <ul class="skills__data">
                             <li class="skills__name">
                                 <span class="skills__circle"></span> PHP
                             </li>
 
                             <li class="skills__name">
                                 <span class="skills__circle"></span> PGSQL
-                            </li>
-                        </ul>
-
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Angular
-                            </li>
-
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Firebase
-                            </li>
-
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> React
                             </li>
                         </ul>
                     </div>
@@ -228,19 +221,18 @@
                         <div class="experience__content">
                             <div class="experience__time">
                                 <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
+                                <!-- <span class="experience__line"></span> -->
                             </div>
 
                             <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Master of Design</h3>
-                                <span class="experience__company">From 2013 to 2015 | Texh Soft</span>
-                                <p class="experience__description">Work in this company dedicating the best
-                                    responsibility in the area that corresponds, delivering the best results for the
-                                    company and improving productivity.</p>
+                                <h3 class="experience__title">Web Development</h3>
+                                <span class="experience__company">From 2022 to 2024 | MSU Gensan</span>
+                                <p class="experience__description">I actively contributed to a capstone project that
+                                    involved developing an information system using web development technologies.</p>
                             </div>
                         </div>
 
-                        <div class="experience__content">
+                        <!-- <div class="experience__content">
                             <div class="experience__time">
                                 <span class="experience__rounder"></span>
                                 <span class="experience__line"></span>
@@ -258,7 +250,7 @@
                         <div class="experience__content">
                             <div class="experience__time">
                                 <span class="experience__rounder"></span>
-                                <!-- <span class="experience__line"></span> -->
+                                <span class="experience__line"></span>
                             </div>
 
                             <div class="experience__data bd-grid">
@@ -268,29 +260,35 @@
                                     responsibility in the area that corresponds, delivering the best results for the
                                     company and improving productivity.</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </section>
 
                 <!--========== CERTIFICATES ==========-->
                 <section class="certificate section" id="certificates">
-                    <h2 class="section-title"></h2>
+                    <h2 class="section-title">Certificates</h2>
 
                     <div class="certificate__container bd-grid">
                         <div class="certificate__content">
-                            <h3 class="certificate__title">Certified for compliance in the work area (2012)</h3>
-                            <p class="certificate_description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                            <h3 class="certificate__title">Badge for completing Cisco Networking Essentials</h3>
+                            <p class="certificate_description">A badge given for completing Networking Essentials in
+                                Cisco Networking Academy.</p>
+                            <a href="https://www.credly.com/earner/earned/badge/dc131ddf-cfd6-42b5-8da1-168c2bb3a2e4"
+                                target="_blank">Badge Link</a>
                         </div>
 
-                        <div class="certificate__content">
+                        <!-- <div class="certificate__content">
                             <h3 class="certificate__title">Certificate of attendance on computer technology.</h3>
-                            <p class="certificate_description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                            <p class="certificate_description">For meeting the expectations of leading the team to work
+                                the specified tasks in the labor field.</p>
                         </div>
 
                         <div class="certificate__content">
-                            <h3 class="certificate__title">Achievement medal for productivity excellence during the year (2019)</h3>
-                            <p class="certificate_description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
-                        </div>
+                            <h3 class="certificate__title">Achievement medal for productivity excellence during the year
+                                (2019)</h3>
+                            <p class="certificate_description">For meeting the expectations of leading the team to work
+                                the specified tasks in the labor field.</p>
+                        </div> -->
                     </div>
                 </section>
 
@@ -298,7 +296,7 @@
                 <section class="references section" id="references">
                     <h2 class="section-title">References</h2>
 
-                    <div class="references__container bd-grid">
+                    <!-- <div class="references__container bd-grid">
                         <div class="references__content bd-grid">
                             <span class="references__subtitle">Sr. Director</span>
                             <h3 class="references__title">Mr. Clay Doe</h3>
@@ -316,24 +314,62 @@
                                 <li>Email: user@email.com</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                 </section>
 
                 <!--========== LANGUAGES ==========-->
                 <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
 
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Filipino
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Tagalog
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>English
+                            </li>
+                        </ul>
+                    </div>
                 </section>
 
                 <!--========== INTERESTS ==========-->
                 <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
 
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-headphone interests__icon'></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt interests__icon'></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-book-bookmark interests__icon'></i>
+                            <span class="interests__name">Reading</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-game interests__icon'></i>
+                            <span class="interests__name">Games</span>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
     </main>
 
     <!--========== SCROLL TOP ==========-->
-
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
 
     <!--========== HTML2PDF ==========-->
     <script src="assets/js/html2pdf.bundle.min.js"></script>
