@@ -504,6 +504,10 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
 }
+
+.certificate_description{
+  text-align: justify;
+}
 /*========== REFERENCES ==========*/
 .references__content{
   gap: .25rem;
