@@ -418,7 +418,6 @@ img {
 /*========== PROFILE ==========*/
 .profile__description{
   text-align: center;
-
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
@@ -506,7 +505,7 @@ img {
   margin-bottom: var(--mb-1);
 }
 /*========== REFERENCES ==========*/
-.references__conten{
+.references__content{
   gap: .25rem;
 }
 
@@ -615,7 +614,7 @@ img {
 
   .section-title,
   .profile__description{
-    text-align: initial;
+    text-align: justify;
   }
 
   .home__container{

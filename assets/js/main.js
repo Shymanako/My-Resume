@@ -99,7 +99,6 @@ let areaCv = document.getElementById('area-cv')
 
 let resumeButton = document.getElementById('resume-button')
 
-
 // Html2pdf options
 let opt = {
     margin:       0,
