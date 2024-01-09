@@ -126,7 +126,7 @@ body.scale-cv{
 }
 
 .scale-cv .home__container{
-  gap: 1.5rem;
+  gap: .5rem;
 }
 
 .scale-cv .home__data{
@@ -622,7 +622,7 @@ img {
   }
 
   .home__container{
-    gap: 1.5rem;
+    gap: .5rem;
   }
 
   .home__button-movil{
